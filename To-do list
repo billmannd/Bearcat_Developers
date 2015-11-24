@@ -14,25 +14,40 @@ Build Applications:
   - JavaScript
   # Dynamic "About me" page
 
+Incorporate into all applications: 
+--------------------------------------
 > Logic - Boolean (yes/no)
   # Introduce conditionals
   
+> Data Types
+  #list out- "this is how to declare variables in this language:"
+
+> Data Structures
+  - Variables
+  - Arrays
+  - Hashes (Ruby)
   
-> If/else
+> Object-orientation
+--------------------------------------  
+>> If/else: 
+  # Set common goal for application: Dan does if/else, Marlena does switch. 
+  # Both use all 5 Languages
   - Javascript
   - Python
   - PHP
   - Ruby
   - Java
-  
 
-> Loops
+
+>> Loops
+  # Set common goal for apps: Dan does for, Marlena does do/while
+  # Both use all 5 languages
   - JS
   - Java
   - PHP
   - Python
   - Ruby
-> Data Structures
-  - Variables
-  - Arrays
-  - Hashes (Ruby)
+
+>> Functions
+  # set common goal for functions: 
+  - Write 'hello world' in every language from a function
