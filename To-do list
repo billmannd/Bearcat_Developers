@@ -2,17 +2,19 @@ To-Do list:
 
 Build Applications:
 
-> Static Web Page
+> Static Web Page - Dan & Marlena
   - HTML/CSS
   # We could use each type of tag in HTML to describe what each tag does
-> Dynamic Web Page
-  - HTML/CSS
+  # "About me" page
+> Dynamic Web Page - Dan: use JQuery, Marlena: use JS
+  - HTML/CSS 
   - JQuery
   - JavaScript
+  # Dynamic "About me" page
 
-> Logic
-  - Boolean (yes/no)
+> Logic - Boolean (yes/no)
   # Introduce conditionals
+  
   
 > If/else
   - Javascript
@@ -26,7 +28,7 @@ Build Applications:
   - PHP
   - Python
   - Ruby
-> Structures
+> Data Structures
   - Variables
   - Arrays
   - Hashes (Ruby)
