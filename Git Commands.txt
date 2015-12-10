@@ -1,0 +1,52 @@
+push Git Commands
+
+Start new feature development
+git checkout -b <new branch name>
+If needed bump the verion in the metadata.rb file and update the change log
+
+When code is ready commit to AviationAppFactory Master 
+git add -A
+git commit -m "<commit comments>"
+git push origin <new branch name>
+Request pull to AviationAppFactory master in GitHub
+
+Once pulled into AviationAppFactory master update local master and orgination/SSO master
+git checkout master
+git branch -D <delete branch name>
+git remote -v
+
+If you need to change or add a remote connection
+git remote remove <repository name>
+git remote add upstream <git clone url>
+
+git fetch upstream
+
+git merge upstream/master
+git push origin master
+
+Reference URL
+https://devcloud.swcoe.ge.com/devspace/display/HWZMY/5.+Git+-+Workflow
+
+[alias]
+	s = status
+	
+a = add -A
+	
+c = commit -m
+	
+cm = !git add -A && git commit -m
+	
+p = push
+	pl = pull
+	
+f = fetch upstream
+	
+m = merge upstream/master
+	
+u = !git fetch upstream && git merge upstream/master
+	
+db = branch -D
+	
+ch = checkout
+	
+nb = checkout -b
